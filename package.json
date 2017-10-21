@@ -1,0 +1,22 @@
+{
+  "name": "chiefchain",
+  "version": "1.0.0",
+  "description": "A simple blockchain in node",
+  "main": "chiefchain.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thesunabove/chiefchain.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/thesunabove/chiefchain/issues"
+  },
+  "homepage": "https://github.com/thesunabove/chiefchain#readme",
+  "devDependencies": {
+    "crypto-js": "^3.1.9-1"
+  }
+}
