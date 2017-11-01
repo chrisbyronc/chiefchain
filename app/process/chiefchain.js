@@ -1,5 +1,14 @@
 var CryptoJS = require("crypto-js");
 
+module.export = class ChiefChain {
+    constructor() {
+        super();
+    }
+    Chain(index, key, timestamp, data, previousHash) {
+        //WIP
+    }
+}
+
 function ChiefChain(index, key, timestamp, data, previousHash) {
     this.index = index;
     this.key = key;
@@ -69,6 +78,8 @@ runBlockChain = function() {
                 console.log('Block ' + i + ' has appended. \n');
                 
                 console.log('Block ' + nextBlock.hash(nextBlock) + '\n' );
+
+                console.log(nextBlock);
             }
         } else {
             console.log('Block ' + i + ' has appended. \n');
